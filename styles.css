@@ -1,0 +1,31 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 4fr));
+    grid-gap: 10px;
+    margin-bottom: 3rem;
+}
+.grid img {
+    width: 100%;
+    object-fit: cover;
+    transition: all .7s ease;
+}
+.grid img:hover{
+    transform: translateY(10px);
+    box-shadow: 10px 10px 20px;
+}
+body{
+    background-color: rgb(145, 139, 139);
+}
+h1{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 1rem;
+}
